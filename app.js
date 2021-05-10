@@ -18,11 +18,11 @@ const player = document.querySelector('.player'),
 const audioSrc = [
    {
 name:'Султан Лагучев',
-src:'https://cdn1.sefon.pro/prev/A5YZb-THFchSqp56XW8G0A/1618733954/217/%D0%A1%D1%83%D0%BB%D1%82%D0%B0%D0%BD%20%D0%9B%D0%B0%D0%B3%D1%83%D1%87%D0%B5%D0%B2%20-%20%D0%93%D0%BE%D1%80%D1%8C%D0%BA%D0%B8%D0%B9%20%D0%92%D0%BA%D1%83%D1%81%20%28192kbps%29.mp3'
+src:'https://mp3bob.ru/download/muz/MARU_-_Ya_Tvoya_sample.mp3'
   },
   {
     name:'Konfuz',
-    src:'https://cdn6.sefon.pro/prev/DKy_iPLlFj--DmxMrPVEpA/1618727886/215/Konfuz%20-%20%D0%A0%D0%B0%D1%82%D0%B0%D1%82%D0%B0%20%28192kbps%29.mp3'
+    src:'https://mp3bob.ru//download/muz/Laurell_-_Habit_sample.mp3'
       }
 ]
 
@@ -33,7 +33,6 @@ let songIndex = 0
 // init
 
 function init(song){
-  console.log('77777',song);
   for(one of titleSong){
     one.innerHTML = song.name 
   }
